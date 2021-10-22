@@ -1,0 +1,323 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1846181100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepsDefinitions.init()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "User Should Be able to add new account successfully",
+        "description": "",
+        "id": "creating-new-account;user-should-be-able-to-add-new-account-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 630655200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepsDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258178000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be on techfios login page",
+            "match": {
+              "location": "stepsDefinitions.User_should_be_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82172800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User  should enter username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 32
+                }
+              ],
+              "location": "stepsDefinitions.user_should_enter_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72053600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User  should enter Password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 32
+                }
+              ],
+              "location": "stepsDefinitions.user_should_enter_Password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1315460100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User  should click on  signin button",
+            "match": {
+              "location": "stepsDefinitions.user_should_click_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5760600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should be on Dashboard",
+            "match": {
+              "location": "stepsDefinitions.user_should_be_on_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41198100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should click Bank And Cash",
+            "match": {
+              "location": "stepsDefinitions.User_Should_click_Bank_And_Cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 833602000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should click on new account",
+            "match": {
+              "location": "stepsDefinitions.user_should_click_on_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62209400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should be able to enter account title as \"Abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abcd1234",
+                  "offset": 47
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_account_title_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61177000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should be able to enter description as \"For techfios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "For techfios",
+                  "offset": 45
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_description_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58989200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should be able to enter initial balance as \"10000000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000000000",
+                  "offset": 49
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_initial_balance_as(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54377900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should be able to enter account number as \"any543210987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "any543210987",
+                  "offset": 48
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_account_number_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47760400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should be able to enter contact person as \"aabb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aabb",
+                  "offset": 48
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_contact_person_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50382500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should be able to enter phone as \"666-888-4545\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "666-888-4545",
+                  "offset": 39
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_phone_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61669500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should be able to enter Banking url as \"https://search.123yahoo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://search.123yahoo.com/",
+                  "offset": 45
+                }
+              ],
+              "location": "stepsDefinitions.user_should_be_able_to_enter_Banking_url_as(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 890385000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should be able to click submit button",
+            "match": {
+              "location": "stepsDefinitions.user_should_be_able_to_click_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6918100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should validate the page",
+            "match": {
+              "location": "stepsDefinitions.user_should_validate_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Creating new account",
+    "description": "",
+    "id": "creating-new-account",
+    "keyword": "Feature",
+    "uri": "features/bankAccount.feature"
+  }
+]
